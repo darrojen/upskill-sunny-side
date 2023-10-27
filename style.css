@@ -16,6 +16,23 @@ img {
   width: 100%;
   margin: auto;
 }
+#button {
+  font-family: "Fraunces";
+  font-weight: 800;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 80px;
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+
+#button a {
+  color: #000;
+}
+#button:hover {
+  background-color: rgb(48, 47, 47);
+  color: #fff;
+}
 .first-part {
   width: 100%;
 }
@@ -27,7 +44,7 @@ img {
 .logo p {
   top: 30px;
   left: 26px;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   font-size: 30px;
   font-weight: 800;
   color: #fff;
@@ -79,16 +96,7 @@ header {
   padding: 20px 0;
 }
 nav li a:hover {
-  color: steelblue;
-}
-.nav li .button {
-  font-family: "Fraunces";
-  font-weight: 800;
-  font-size: 14px;
-  padding: 12px 20px;
-  background-color: #fff;
-  border-radius: 20px;
-  color: black;
+  color: #333;
 }
 .links a {
   justify-content: center;
@@ -172,9 +180,10 @@ nav li a:hover {
   background-image: url(./sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
   background-size: cover;
   background-position: center;
+  background-color: #fff;
 }
 .fifth-box p.graphic-design {
-  margin-top: 200px;
+  margin-top: 300px;
   align-items: center;
   text-align: center;
   font-size: 20px;
@@ -195,7 +204,7 @@ nav li a:hover {
   color: rgb(37, 37, 39);
 }
 .sixth-box p.photography {
-  margin-top: 200px;
+  margin-top: 300px;
   align-items: center;
   text-align: center;
   font-size: 20px;
@@ -215,6 +224,15 @@ nav li a:hover {
   line-height: 1.5rem;
   color: rgb(37, 37, 39);
 }
+.second-header {
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 150px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Fraunces";
+  color: #808080;
+}
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -224,15 +242,67 @@ nav li a:hover {
   justify-content: center;
 }
 .testimonials img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 .testimonials .paragraph {
   width: 300px;
-  font-family: "Fraunces";
+  font-family: "Fraunces", sans-serif;
   margin-left: 60px;
   margin-top: 40px;
   margin-bottom: 50px;
+  color: rgb(37, 37, 39);
+}
+.name {
+  font-size: 25px;
+  font-family: "Fraunces";
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+
+p.bottom {
+  font-family: "Barlow";
+  font-size: 13px;
   color: #808080;
+  margin-bottom: 150px;
+}
+
+.image-box {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.image-box img {
+  width: 25%;
+}
+
+.footer-header p {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: green;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Barlow";
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 500px;
+}
+.footer-icons img {
+  height: 30px;
+  width: 30px;
+  align-items: center;
 }
